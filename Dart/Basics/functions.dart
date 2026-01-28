@@ -1,4 +1,3 @@
-
 void main(){
   // we call function her : functionName(arguments);
   printHi();
@@ -16,8 +15,9 @@ int sumOfTowNumbers(){int x=3;int y=3; return x+y;}
 //Optional Parameter we use a any parameter of function be optional , optional parameter must be last parameter
   int sumOfTowNumbersPar2(int x ,[int y=0]){return x +y;}
 // we can use sumOfTowNumbersPar2(2); 2 is argument of x will return 2 
+
 //  named parameter : we use to give parameter to call with names 
 // named syntax :   int funName({dt x ,required dt y}){return x +y;} make parameters name will be a optional parameters to we use key word required to take it as a must argument 
   int sumOfTowNumbersNamed({int x=0 /* optional */,required  int y/*must be argument */ }){return x +y;}
 // we can use sumOfTowNumbersNamed(5) 5 is argument of y fun will return 5  
-// we call it sumOfTowNumbersNamed(NameOfparameter1 : value , NameOfParameter2 : value );
+// we call it sumOfTowNumbersNamed(NameOfParameter1 : value , NameOfParameter2 : value );
