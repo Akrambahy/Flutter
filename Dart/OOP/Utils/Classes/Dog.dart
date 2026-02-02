@@ -6,19 +6,16 @@ class Dog
         {
   int? numberOfArmy;
 
-  Dog({
-    required super.name,
-    required super.age,
-    required this.numberOfArmy,
-  }); //passing parameters using super constructor
+  Dog({required name, required age, required this.numberOfArmy})
+    : super(name: name, age: age); //passing parameters using super constructor
 
   Bark() {
     print("Dog is Barking");
   }
 
   @override
-  void eat() // override function eat for Cat
-  {
-    print("Dog Is Eating...");
+  void eat() // override function eat for Dog
+   {
+    print("Cat Is Eating...");
   }
 }
