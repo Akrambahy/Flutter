@@ -4,7 +4,7 @@ int? age;
 String? sound;
 Animal({required this.name,required this.age}); // super constructor 
 
-move(){}
-eat(){}
-sleep(){}
+eat(){
+print ("Animal Is Eating...");
+}
 }

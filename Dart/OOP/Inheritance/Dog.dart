@@ -1,14 +1,21 @@
 import "Animal.dart";
 
-class Dog extends Animal // we use key extends to implement inheritance using before base after sub class
-{
-int? numberOfArmy;
+class Dog
+    extends
+        Animal // we use key extends to implement inheritance using before base after sub class
+        {
+  int? numberOfArmy;
 
-Dog({required super.name,required super.age,required this.numberOfArmy});  //passing parameters using super constructor
+  Dog({required name, required age, required this.numberOfArmy})
+    : super(name: name, age: age); //passing parameters using super constructor
 
+  Bark() {
+    print("Dog is Barking");
+  }
 
-Bark(){
-  print("Dog is Barking");
-}
-
+  @override
+  void eat() // override function eat for Dog
+   {
+    print("Cat Is Eating...");
+  }
 }
