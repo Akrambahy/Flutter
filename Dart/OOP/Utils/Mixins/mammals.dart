@@ -1,0 +1,4 @@
+mixin MammalsMixin{
+
+walk(){}
+}

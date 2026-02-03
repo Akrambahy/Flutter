@@ -1,8 +1,7 @@
 import "Animal.dart";
+import "../Mixins/mammals.dart";
 
-class Dog
-    extends
-        Animal // we use key extends to implement inheritance using before base after sub class
+class Dog extends Animal with MammalsMixin // we use key extends to implement inheritance using before base after sub class
         {
   int? numberOfArmy;
 

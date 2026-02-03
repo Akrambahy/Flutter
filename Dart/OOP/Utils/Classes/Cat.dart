@@ -1,6 +1,7 @@
 import "Animal.dart";
+import "../Mixins/mammals.dart";
 
-class Cat extends Animal {
+class Cat extends Animal with MammalsMixin {
   int? numberOfNepals;
 
   Cat({
