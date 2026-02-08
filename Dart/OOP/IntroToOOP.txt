@@ -1,7 +1,0 @@
-OOP (Object Oriented Programming)
-We Use It To Convert Real Life Things To Code.
-How We Convert Real Thing To OOP:
-1- Determine Collection Of It
-ex : Akram->Human
-2-Determine Characters Of Collection
-1->Akram-->Human->2->Human--> name,age,hight,width,skin color , Gender
